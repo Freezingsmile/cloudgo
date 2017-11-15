@@ -10,4 +10,11 @@ cloudgo
 
 - go run main.go -p9090
  
-此时启动服务器，并进入
+此时启动服务器，并进入，通过在浏览器中输入http://localhost:9090/hello/Freezingsmile(本人用户名),即可访问当前服务器的状况。
+
+
+- curl -v http://localhost:9090/hello/Freezingsmile
+
+此时通过使用curl观测服务器状态
+
+- 完成cloudgo 的 Martini框架
